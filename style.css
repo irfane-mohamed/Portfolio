@@ -191,3 +191,16 @@ footer {
     .hero h1 { font-size: 2.2rem; }
     .section { padding: 3rem 5%; }
 }
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    margin-left: 1rem;
+}
+.btn-secondary:hover {
+    background-color: var(--primary);
+    color: var(--bg-dark);
+}
+.hero-content .btn{margin-top:1rem;}
+@media (max-width:768px){.btn-secondary{margin-left:0;}}
